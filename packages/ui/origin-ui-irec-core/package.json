@@ -41,7 +41,7 @@
         "formik": "2.2.6",
         "formik-material-ui": "3.0.1",
         "yup": "0.32.9",
-        "ethers": "5.0.31",
+        "ethers": "5.0.32",
         "axios": "0.21.1",
         "@date-io/moment": "2.10.6",
         "i18next": "19.9.2",
