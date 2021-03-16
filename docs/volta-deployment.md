@@ -17,6 +17,9 @@ Origin in development mode uses `.env` file to set all necessary configuration v
     Make sure you completed <a href="../getting-started">Getting started</a> in order to install and build Origin monorepo.
   </p>
 </div>
+<div class="admonition attention">
+  <p class="first admonition-title">Attention</p>
+  <p class="last">
    1. copy `.env.example` to `.env` <br>  
    2. edit `.env` and set <br>  
     - `WEB3` to `https://volta.rpc.anyblock.tools` or any other valid Volta WEB3 node <br>   
@@ -26,6 +29,8 @@ Origin in development mode uses `.env` file to set all necessary configuration v
     - `EXCHANGE_WALLET_PUB` to a address of `EXCHANGE_WALLET_PRIV` <br>   
   3. run `yarn run:origin:web3` 
   4. UI will be available at [http://localhost:3000/](http://localhost:3000/)
+</p>
+</div>
 <div class="admonition note">
   <p class="first admonition-title">Note</p>
   <p class="last">
