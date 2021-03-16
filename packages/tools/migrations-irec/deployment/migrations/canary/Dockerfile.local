@@ -3,7 +3,7 @@ FROM energyweb/origin-backend-irec-app:canary
 RUN mkdir /var/migration-config
 COPY config/* /var/migration-config/
 
-WORKDIR /usr/local/share/.config/yarn/global/node_modules/\@energyweb/
+WORKDIR /var/deployment/apps/origin-backend-irec-app
 
 CMD ["/bin/bash","-c", "packages/apps/origin-backend-irec-app/deployment/packages/apps/origin-backend-irec-app/node_modules/.bin/typeorm migration:run --config exchange/dist/js/ormconfig.js && \
                         packages/apps/origin-backend-irec-app/deployment/packages/apps/origin-backend-irec-app/node_modules/.bin/typeorm migration:run --config origin-backend/dist/js/ormconfig.js && \
