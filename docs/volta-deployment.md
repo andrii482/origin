@@ -19,7 +19,7 @@ Origin in development mode uses `.env` file to set all necessary configuration v
 </div>
 
    1. copy  `.env.example` to `.env`
-   2. edit `.env` and set
+   2. edit `.env` and set <br>
     - `WEB3` to `https://volta.rpc.anyblock.tools` or any other valid Volta WEB3 node  <br>
     - `DEPLOY_KEY` to a private key with funded Volta account (see notes below for instructions)  
     - `EXCHANGE_ACCOUNT_DEPLOYER_PRIV` to a private key with funded Volta account (for testing you can use `DEPLOY_KEY`) <br>
